@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => {
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <MobileNavButton active={menuActive} onClick={() => setMenuActive(!menuActive) } />
               <div className="flex-shrink-0 flex items-center">
-                <StaticImage className="block h-8 w-8" src="../../public/icons/icon-144x144.png" width={32} height={32} alt="Gatsby Logo" />
+                <StaticImage className="block h-8 w-8" src="../images/gatsby-icon.png" width={32} height={32} alt="Gatsby Logo" />
               </div>
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
