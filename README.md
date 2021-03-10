@@ -101,7 +101,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 🎓 Learning Tailwind
 
-Need to sharpen your tailwindcss skills? Starting with the [tailwindcss](https://tailwindcss.com/) landing page gives you a good idea of for what you need to [get started](https://tailwindcss.com/docs).
+Need to sharpen your tailwindcss skills? Starting with the [tailwindcss](https://tailwindcss.com/) landing page gives you a good idea for what you need to [get started](https://tailwindcss.com/docs).
 
 ## 🎓 Learning Astrotuf
 The odds are that if you have used emotion, styled-components, or any other React-based CSS-in-JS solution, you probably already know how to use [astroturf](https://github.com/4Catalyzer/astroturf/tree/v1.0.0-beta.17).
