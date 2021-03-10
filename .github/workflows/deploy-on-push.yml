@@ -1,21 +1,21 @@
 name: Gatsby Build and Deploy to GitHub Pages on Push
 
 on:
-push:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
-build-and-deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout
-      uses: actions/checkout@main
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: public
-        BUILD_SCRIPT: yarn && yarn run build
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
+          BUILD_SCRIPT: yarn && yarn run build
