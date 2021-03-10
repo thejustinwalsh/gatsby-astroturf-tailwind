@@ -8,9 +8,9 @@
   Gatsby's Astropturf Tailwind starter
 </h1>
 
-Kick off your project with this amped up boilerplate using [astroturf](https://github.com/4Catalyzer/astroturf) and [tailwindcss](https://tailwindcss.com/). This starter ships with the modified Gatsby configuration files and the solid examples you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick-off your project with this amped-up gatsby-default-starter using [astroturf](https://github.com/4Catalyzer/astroturf) and [tailwindcss](https://tailwindcss.com/). This starter ships with modified Gatsby configuration files and the solid examples you might need to get up and running blazing fast with the blazing-fast app generator for React.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+_Have another more specific idea? You may want to check out Gatsby's vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
