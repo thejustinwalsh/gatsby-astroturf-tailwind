@@ -10,7 +10,7 @@
 
 ![theme-preview](https://raw.githubusercontent.com/thejustinwalsh/gatsby-astroturf-tailwind/main/src/images/theme-preview.png)
 
-Kick-off your project with this amped-up gatsby-default-starter using [astroturf](https://github.com/4Catalyzer/astroturf) and [tailwindcss](https://tailwindcss.com/). This starter ships with modified Gatsby configuration files and the solid examples you might need to get up and running blazing fast with the blazing-fast app generator for React.
+Kick-off your project with this amped-up version of the [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) starter using [astroturf](https://github.com/4Catalyzer/astroturf) and [tailwindcss](https://tailwindcss.com/). This starter ships with modified Gatsby configuration files and the solid examples you might need to get up and running blazing fast with the blazing-fast app generator for React.
 
 _Have another more specific idea? You may want to check out Gatsby's vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
 
@@ -91,7 +91,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 14. **`README.md`**: A text file containing useful reference information about your project.
 
-15. **`tailwind.config.js`**: A barebones configuration file for tailwindcss.
+15. **`tailwind.config.js`**: A barebones configuration file for [tailwindcss](https://tailwindcss.com/).
 
 ## 🎓 Learning Gatsby
 
@@ -103,7 +103,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 🎓 Learning Tailwind
 
-Need to sharpen your tailwindcss skills? Starting with the [tailwindcss](https://tailwindcss.com/) landing page gives you a good idea for what you need to [get started](https://tailwindcss.com/docs).
+Need to sharpen your tailwindcss skills? Starting with the [tailwindcss](https://tailwindcss.com/) landing page gives you a good idea for what you need to [get started](https://tailwindcss.com/docs/configuration).
 
 ## 🎓 Learning Astrotuf
 The odds are that if you have used emotion, styled-components, or any other React-based CSS-in-JS solution, you probably already know how to use [astroturf](https://github.com/4Catalyzer/astroturf/tree/v1.0.0-beta.17).
