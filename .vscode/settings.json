@@ -1,0 +1,17 @@
+{
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.linkedEditing": true,
+  "tailwindCSS.experimental.classRegex": [
+    "@apply ([^'`\n\"]*)", // ${`@apply ...`}
+    "className={\"([^\"}]*)", // <div className="..." />
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  }
+}
