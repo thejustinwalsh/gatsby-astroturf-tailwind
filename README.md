@@ -71,7 +71,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 4.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-5. https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+5. **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
 6.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
