@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's Astropturf Tailwind starter
+  Gatsby Astroturf Tailwind Starter
 </h1>
 
 Kick-off your project with this amped-up gatsby-default-starter using [astroturf](https://github.com/4Catalyzer/astroturf) and [tailwindcss](https://tailwindcss.com/). This starter ships with modified Gatsby configuration files and the solid examples you might need to get up and running blazing fast with the blazing-fast app generator for React.
