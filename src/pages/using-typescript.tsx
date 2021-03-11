@@ -1,11 +1,10 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
-import styled, { css } from "astroturf/react"
+import styled from "astroturf/react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../styles/using-typescript.css"
 
 type DataProps = {
   site: {
@@ -13,23 +12,22 @@ type DataProps = {
   }
 }
 
-// TODO: Typescript vs Astroturf page errors
-// * https://github.com/jquense/gatsby-plugin-astroturf/issues/4
-/*
-const Article = styled('article')`
-  ${"@apply font-normal leading-relaxed"};
-  
+const Article = styled.article`
+  p {
+    ${"@apply font-normal leading-relaxed mt-4"};
+  }
   em {
     ${"@apply italic rounded-sm p-1 bg-gray-100 text-yellow-500"};
   }
+  a {
+    ${"@apply text-purple-600 underline"};
+  }
 `;
-*/
-
 
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <SEO title="Using TypeScript" />
-      <article>
+      <Article>
         <h1 className="text-3xl leading-relaxed">Gatsby supports TypeScript by default!</h1>
         <p>
           This means that you can create and write <em>.ts/.tsx</em> files for your
@@ -51,7 +49,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
           </a>
           .
         </p>
-      </article>
+      </Article>
   </Layout>
 )
 
