@@ -1,3 +1,8 @@
+const tailwindcss = require("tailwindcss")
+const autoprefixer = require("autoprefixer")
+const postcssNested = require("postcss-nested")
+const purgecss = require("@fullhuman/postcss-purgecss")
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -30,12 +35,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-typescript`,
-    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [tailwindcss, autoprefixer, postcssNested],
+      },
+    },
     {
       resolve: `gatsby-plugin-astroturf`,
       options: {
         enableDynamicInterpolations: true,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-offline`,
