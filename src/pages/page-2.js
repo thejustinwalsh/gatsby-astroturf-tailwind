@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Article = styled.article`
   ${"@apply font-normal leading-snug"};
-`;
+`
 
 const SecondPage = () => (
   <Layout>

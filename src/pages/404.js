@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Error = styled.h1`
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    ${"@apply leading-normal font-sans font-semibold text-purple-700 bg-purple-700"};
-    ${"@apply bg-gradient-to-r from-purple-700 via-red-500 to-yellow-500"};
-`;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ${"@apply leading-normal font-sans font-semibold text-purple-700 bg-purple-700"};
+  ${"@apply bg-gradient-to-r from-purple-700 via-red-500 to-yellow-500"};
+`
 
 const NotFoundPage = () => (
   <Layout>
@@ -24,7 +24,6 @@ const NotFoundPage = () => (
         </div>
       </div>
     </div>
-    
   </Layout>
 )
 
