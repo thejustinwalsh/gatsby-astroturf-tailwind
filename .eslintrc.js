@@ -83,7 +83,7 @@ module.exports = {
       'react/jsx-filename-extension': [
         1,
         {
-          extensions: ['.js', '.jsx', '.tsx'],
+          extensions: ['.jsx', '.tsx'],
         },
       ],
       'radix': 0,
