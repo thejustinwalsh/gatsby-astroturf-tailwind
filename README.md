@@ -47,8 +47,8 @@ _Have another more specific idea? You may want to check out Gatsby's vibrant col
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
     .
-    ├── .github
-    ├── .vscode
+    ├── .github/*
+    ├── .vscode/*
     ├── node_modules
     ├── src
     ├── .gitignore
