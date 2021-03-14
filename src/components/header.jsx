@@ -90,6 +90,7 @@ const Header = ({ siteTitle }) => {
                   src="../images/gatsby-icon.png"
                   width={32}
                   height={32}
+                  fadeIn={false}
                   alt="Gatsby Logo"
                 />
               </div>
