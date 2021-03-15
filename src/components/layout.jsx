@@ -23,7 +23,6 @@ const Layout = ({ children }) => {
     }
   `)
 
-  /* purgecss start ignore */
   const Content = styled.div`
     ${"@apply mb-auto h-full p-10"};
   `
@@ -31,7 +30,6 @@ const Layout = ({ children }) => {
   const Footer = styled.footer`
     ${"@apply flex h-6 justify-center text-sm text-gray-800 font-light"};
   `
-  /* purgecss end ignore */
 
   return (
     <div className="flex flex-col h-screen">

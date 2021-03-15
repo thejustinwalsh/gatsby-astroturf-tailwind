@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import styled from "astroturf/react"
 
-/* purgecss ignore current */
 const NavLink = styled(Link)`
   ${"@apply px-3 py-2 rounded-md text-base font-medium"};
   ${"@apply text-gray-300 hover:bg-gray-700 hover:text-white"};
@@ -12,7 +11,6 @@ const NavLink = styled(Link)`
     ${"@apply bg-gray-900 text-white hover:bg-gray-900"};
   }
 `
-/* purgecss end ignore */
 
 const MobileNavButton = ({ active = false, onClick }) => (
   <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -90,7 +88,8 @@ const Header = ({ siteTitle }) => {
                   src="../images/gatsby-icon.png"
                   width={32}
                   height={32}
-                  fadeIn={false}
+                  loading="eager"
+                  placeholder="none"
                   alt="Gatsby Logo"
                 />
               </div>

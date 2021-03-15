@@ -12,7 +12,6 @@ type DataProps = {
   }
 }
 
-/* purgecss start ignore */
 const Article = styled.article`
   p {
     ${"@apply font-normal leading-relaxed mt-4"};
@@ -24,7 +23,6 @@ const Article = styled.article`
     ${"@apply text-purple-600 underline"};
   }
 `
-/* purgecss end ignore */
 
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>

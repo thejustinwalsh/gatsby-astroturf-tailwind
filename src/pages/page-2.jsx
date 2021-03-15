@@ -4,11 +4,9 @@ import styled from "astroturf/react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-/* purgecss start ignore */
 const Article = styled.article`
   ${"@apply font-normal leading-snug"};
 `
-/* purgecss end ignore */
 
 const SecondPage = () => (
   <Layout>
